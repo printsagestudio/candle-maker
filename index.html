@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrintSage Studio - Minimalist Candle Packaging Bundle</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-container">
+                <img src="logo.png" alt="PrintSage Studio Logo" class="logo">
+            </div>
+            
+            <button class="buy-button" onclick="scrollToPurchase()">
+                <i class="fas fa-shopping-cart"></i> Get It Now - $11
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Stop Spending Hours Designing Candle Packaging From Scratch</h1>
+                <p class="hero-subtitle">Create a clean, professional look for your candle brand — without hiring a designer.</p>
+                
+                <div class="hero-buttons">
+                    <button class="btn-primary" onclick="scrollToPurchase()">
+                        <i class="fas fa-download"></i> Get Your Templates - $11
+                    </button>
+                    <button class="btn-secondary" onclick="scrollToFeatures()">
+                        <i class="fas fa-info-circle"></i> Learn More
+                    </button>
+                </div>
+                
+                <div class="hero-note">
+                    <i class="fas fa-shield-alt"></i> Instant Download • Works with free Canva • 5 professional templates
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <!-- Your hero image goes here -->
+                <img src="hero-image.png" alt="Minimalist Candle Packaging Templates" class="hero-real-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem-section">
+        <div class="container">
+            <h2>You're Pouring Your Heart Into Every Candle... <br>But Your Packaging Isn't Showing It</h2>
+            <p class="section-intro">You know that first impression matters. When a customer opens their order, they're not just getting a candle — they're experiencing your brand.</p>
+            
+            <div class="problem-list">
+                <div class="problem-item">
+                    <div class="problem-icon"><i class="fas fa-clock"></i></div>
+                    <h3>No Time for Design Software</h3>
+                    <p>You don't have time to learn complex design software like Adobe Illustrator.</p>
+                </div>
+                
+                <div class="problem-item">
+                    <div class="problem-icon"><i class="fas fa-dollar-sign"></i></div>
+                    <h3>Designer Costs Too Much</h3>
+                    <p>Hiring a designer costs hundreds (or thousands) of dollars that you don't have.</p>
+                </div>
+                
+                <div class="problem-item">
+                    <div class="problem-icon"><i class="fas fa-palette"></i></div>
+                    <h3>Generic Templates Don't Fit</h3>
+                    <p>Most templates don't match your minimalist aesthetic and brand vision.</p>
+                </div>
+                
+                <div class="problem-item">
+                    <div class="problem-icon"><i class="fas fa-sticky-note"></i></div>
+                    <h3>Plain Handwritten Notes</h3>
+                    <p>You're stuck with plain handwritten notes or nothing at all for packaging inserts.</p>
+                </div>
+            </div>
+            
+            <div class="problem-conclusion">
+                <p>Meanwhile, your competitors are showing up with polished, professional packaging that makes their candles look like premium products.</p>
+                <p class="highlight-text">What if you could have designer-quality packaging inserts and labels ready in under 10 minutes?</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Intro -->
+    <section class="product-intro" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Introducing the Minimalist Candle Packaging Insert & Label Template Bundle</h2>
+                <p class="section-subtitle">This minimalist starter bundle includes essential packaging inserts and a product label, designed specifically for small candle businesses and handmade brands.</p>
+            </div>
+            
+            <div class="whats-included">
+                <h3><i class="fas fa-sparkles"></i> What's Included in Your Bundle</h3>
+                
+                <div class="included-grid">
+                    <div class="included-item">
+                        <div class="included-icon"><i class="fas fa-envelope"></i></div>
+                        <h4>2 Thank You Card Designs</h4>
+                        <p>One with social media icons, one without — choose what fits your brand best</p>
+                    </div>
+                    
+                    <div class="included-item">
+                        <div class="included-icon"><i class="fas fa-fire"></i></div>
+                        <h4>1 Candle Care Instruction Card</h4>
+                        <p>Help your customers get the most out of their purchase with professional care instructions</p>
+                    </div>
+                    
+                    <div class="included-item">
+                        <div class="included-icon"><i class="fas fa-qrcode"></i></div>
+                        <h4>1 Scan & Save QR Discount Card</h4>
+                        <p>Turn first-time buyers into repeat customers with a modern QR code discount card</p>
+                    </div>
+                    
+                    <div class="included-item">
+                        <div class="included-icon"><i class="fas fa-tag"></i></div>
+                        <h4>1 Minimalist Candle Label</h4>
+                        <p>Clean, elegant product labeling that elevates your candle presentation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2><i class="fas fa-print"></i> How It Works (It's Ridiculously Simple)</h2>
+            
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Download Instantly</h3>
+                    <p>Get immediate access to all PDF files right after purchase. No waiting, no delays.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Open in Canva</h3>
+                    <p>Use the free version of Canva — no expensive software required.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Customize Everything</h3>
+                    <p>Edit text, colors, and add your logo. Make it perfectly yours in minutes.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Print & Package</h3>
+                    <p>Print at home or use a professional printer. Start impressing customers today.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="benefits">
+        <div class="container">
+            <h2>Why Candle Makers Love This Bundle</h2>
+            
+            <div class="benefits-grid">
+                <div class="benefit">
+                    <div class="benefit-icon"><i class="fas fa-bolt"></i></div>
+                    <h3>Save Hours of Time</h3>
+                    <p>No more struggling with design. Get professional results in under 10 minutes.</p>
+                </div>
+                
+                <div class="benefit">
+                    <div class="benefit-icon"><i class="fas fa-money-bill-wave"></i></div>
+                    <h3>Save Hundreds of Dollars</h3>
+                    <p>Skip the expensive designer fees. Get everything you need for just $11.</p>
+                </div>
+                
+                <div class="benefit">
+                    <div class="benefit-icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3>Perfect Minimalist Style</h3>
+                    <p>Clean, modern designs that make your candles look premium and professional.</p>
+                </div>
+                
+                <div class="benefit">
+                    <div class="benefit-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Increase Repeat Sales</h3>
+                    <p>The QR discount card turns one-time buyers into loyal customers.</p>
+                </div>
+                
+                <div class="benefit">
+                    <div class="benefit-icon"><i class="fas fa-edit"></i></div>
+                    <h3>Fully Customizable</h3>
+                    <p>Easy to edit in Canva — change colors, text, and fonts to match your brand.</p>
+                </div>
+                
+                <div class="benefit">
+                    <div class="benefit-icon"><i class="fas fa-home"></i></div>
+                    <h3>Print Anywhere</h3>
+                    <p>Print at home on your own printer or send to a professional print shop.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Target Audience -->
+    <section class="audience">
+        <div class="container">
+            <h2><i class="fas fa-lightbulb"></i> Is This Bundle Right For You?</h2>
+            <p class="audience-subtitle">This bundle is perfect if you're:</p>
+            
+            <div class="audience-list">
+                <div class="audience-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>A candle maker or small candle business owner who wants to elevate your brand presentation</span>
+                </div>
+                
+                <div class="audience-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>A handmade brand or shop owner looking for cohesive, professional packaging materials</span>
+                </div>
+                
+                <div class="audience-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>A beginner who wants a polished, cohesive look without learning complicated design software</span>
+                </div>
+                
+                <div class="audience-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Someone who values minimalist, clean aesthetics over cluttered, busy designs</span>
+                </div>
+                
+                <div class="audience-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Ready to create a memorable unboxing experience that keeps customers coming back</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="purchase">
+        <div class="container">
+            <div class="pricing-header">
+                <h2>Get Professional Packaging for Less Than a Latte</h2>
+                <p>Everything you need to make your candle brand look premium — for just $11</p>
+            </div>
+            
+            <div class="pricing-card">
+                <div class="price-badge">
+                    <span class="price">$11</span>
+                </div>
+                
+                <div class="pricing-features">
+                    <div class="feature-item">
+                        <i class="fas fa-check"></i>
+                        <span>2 Thank You Card Designs</span>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <i class="fas fa-check"></i>
+                        <span>1 Candle Care Instruction Card</span>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <i class="fas fa-check"></i>
+                        <span>1 Scan & Save QR Discount Card</span>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <i class="fas fa-check"></i>
+                        <span>1 Minimalist Candle Label</span>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <i class="fas fa-check"></i>
+                        <span>Instant Download (5 pages, 4.34 MB)</span>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <i class="fas fa-check"></i>
+                        <span>Fully Editable in Canva (Free Account Works)</span>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <i class="fas fa-check"></i>
+                        <span>Print at Home or Professionally</span>
+                    </div>
+                </div>
+                
+                <div class="pricing-note">
+                    <i class="fas fa-box"></i> Digital download • No physical items shipped
+                </div>
+                
+                <p class="price-comparison">Compare that to hiring a designer ($300-500+) or spending hours learning design software yourself. This is a no-brainer investment in your brand.</p>
+                
+                <button class="btn-primary btn-large" onclick="purchaseProduct()">
+                    <i class="fas fa-shopping-cart"></i> Get Your Templates Now — Just $11
+                </button>
+                
+                <div class="guarantee">
+                    <i class="fas fa-lock"></i> Secure checkout • 30-day satisfaction guarantee
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h2>Common Questions</h2>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do I need a paid Canva account?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Nope! All templates work with a free Canva account. You don't need Canva Pro.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Can I change the colors and fonts?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely! Everything is fully customizable in Canva. Change colors, fonts, text, and add your logo.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How do I print these?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>You can print at home on your own printer or upload the files to any professional printing service like Vistaprint, Moo, or your local print shop.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What size are the templates?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>The templates are designed in standard sizes that are easy to print and cut. Specific dimensions are included in the files.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Can I use these for my business?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! These templates are for personal or small business use. You can use them for your candle business, but you cannot resell the templates themselves.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Is this a physical product?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No, this is a digital product. You'll receive instant download links to PDF files after purchase. Nothing will be shipped.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What if I'm not tech-savvy?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Canva is incredibly user-friendly and designed for beginners. If you can use basic word processing, you can use these templates. It's as simple as clicking and typing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Ready to Elevate Your Candle Brand?</h2>
+            <p>Stop settling for plain packaging. Give your customers the premium unboxing experience they deserve — starting with your very next order.</p>
+            
+            <button class="btn-primary btn-large" onclick="purchaseProduct()">
+                Get Your Templates Now — Just $11
+            </button>
+            
+            <div class="cta-note">
+                <i class="fas fa-download"></i> Instant download • Works with free Canva • 5 professional templates
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="footer-logo-text">PrintSage Studio</span>
+                </div>
+                
+                <div class="footer-contact">
+                    <p><i class="fas fa-envelope"></i> printsagestudio@gmail.com</p>
+                    <p><i class="fas fa-link"></i> <a href="https://printsagestudio.gumroad.com/l/minimalistcandlebundle" target="_blank">Gumroad Product Page</a></p>
+                </div>
+                
+                <div class="footer-copyright">
+                    <p>© 2026 PrintSage Studio. All rights reserved.</p>
+                    <p>Digital products for personal and small business use only.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Purchase Modal -->
+    <div class="modal-overlay" id="purchaseModal">
+        <div class="modal">
+            <button class="modal-close" onclick="closeModal()">
+                <i class="fas fa-times"></i>
+            </button>
+            
+            <div class="modal-header">
+                <h3>Complete Your Purchase</h3>
+                <p>You're buying: Minimalist Candle Packaging Insert & Label Template Bundle</p>
+            </div>
+            
+            <div class="modal-content">
+                <div class="modal-price">
+                    <span class="modal-price-amount">$11</span>
+                    <span class="modal-price-note">One-time payment</span>
+                </div>
+                
+                <div class="modal-features">
+                    <p><i class="fas fa-check"></i> Instant access after purchase</p>
+                    <p><i class="fas fa-check"></i> Works with free Canva account</p>
+                    <p><i class="fas fa-check"></i> 30-day satisfaction guarantee</p>
+                </div>
+                
+                <a href="https://printsagestudio.gumroad.com/l/minimalistcandlebundle" target="_blank" class="btn-primary btn-large btn-modal">
+                    <i class="fas fa-external-link-alt"></i> Buy on Gumroad
+                </a>
+                
+                <p class="modal-note">You'll be redirected to Gumroad to complete your purchase securely.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
