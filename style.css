@@ -128,7 +128,7 @@ section {
 }
 
 .hero-title {
-    font-size: 3.2rem;
+    font-size: 3rem;
     margin-bottom: 1.5rem;
     color: var(--text-color);
     line-height: 1.1;
@@ -904,7 +904,7 @@ section {
     
     /* Adjust logo size on tablet */
     .logo {
-        height: 65px;
+        height: 100px;
     }
     
     .logo-text {
@@ -947,7 +947,7 @@ section {
     
     /* Adjust logo for mobile */
     .logo {
-        height: 55px;
+        height: 100px;
     }
     
     .logo-text {
@@ -1002,7 +1002,7 @@ section {
     
     /* Logo on very small screens */
     .logo {
-        height: 50px;
+        height: 80px;
     }
     
     .logo-text {
