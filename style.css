@@ -48,7 +48,7 @@ section {
    ============================================ */
 .header {
     background-color: var(--light-color);
-    padding: 25px 0;
+    padding: 10px 0;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -110,7 +110,7 @@ section {
    ============================================ */
 .hero {
     background-color: var(--background-color);
-    padding: 100px 0 120px;
+    padding: 50px 0 120px;
     overflow: hidden;
 }
 
